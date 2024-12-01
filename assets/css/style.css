@@ -1869,3 +1869,14 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+.no-content-wrapper {
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+}
+
+.no-content-text {
+  color: #f9fdfd;
+  font-size: 1rem;
+  font-style: italic;
+}
