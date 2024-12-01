@@ -156,4 +156,23 @@ for (let i = 0; i < navigationLinks.length; i++) {
     }
 
   });
+  // Footer scroll functionality
+// Footer scroll functionality
+window.addEventListener('scroll', function() {
+  const footer = document.querySelector('.footer');
+  const windowHeight = window.innerHeight;
+  const documentHeight = document.documentElement.scrollHeight;
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  
+  // Show footer when near bottom (within 50px of bottom)
+  if (windowHeight + scrollTop >= documentHeight - 50) {
+      footer.style.opacity = '1';
+  } else {
+      footer.style.opacity = '0';
+  }
+});
+
+// Initialize footer as hidden
+document.querySelector('.footer').style.opacity = '0';
+
 }
