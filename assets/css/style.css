@@ -1900,3 +1900,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 .main-content {
   padding-bottom: 0; /* Adjust based on your footer height */
 }
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.button-wrapper .form-btn {
+  flex: 1;
+}
