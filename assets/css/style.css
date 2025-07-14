@@ -426,7 +426,11 @@ main {
   padding-bottom: 4px;
   padding-left: 7px;
 }
-
+.title-wrapper {
+  display: flex;
+  align-items: center; /* vertically center the items */
+  gap: 10px;           /* optional: space between icon and text */
+}
 .social-item .social-link {
   color: var(--light-gray-70);
   font-size: 18px;
