@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Selected projects by Sajjad Shahid — desktop apps, Flutter apps, and AI work.">
+  <title>Portfolio — Sajjad Shahid</title>
+
+  <link rel="shortcut icon" href="./assets/images/ICON.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a href="./index.html" class="brand" aria-label="Sajjad Shahid — Home">
+      <span class="brand-mark">SS</span>
+      <span class="brand-name">Sajjad<span>.Shahid</span></span>
+    </a>
+
+    <nav class="topnav" aria-label="Primary">
+      <ul class="nav-list" role="list">
+        <li><a href="./index.html" class="nav-link" data-page="about">About</a></li>
+        <li><a href="./resume.html" class="nav-link" data-page="resume">Resume</a></li>
+        <li><a href="./portfolio.html" class="nav-link active" data-page="portfolio">Portfolio</a></li>
+        <li><a href="./contact.html" class="nav-link" data-page="contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="topbar-actions">
+      <a href="./assets/images/RESUME.pdf" download class="btn btn-primary btn-sm">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        <span>Resume</span>
+      </a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" type="button">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" type="button">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="container page" data-page-key="portfolio">
+
+    <section class="section page-hero" id="portfolio">
+      <header class="section-head" data-reveal>
+        <span class="kicker">Portfolio</span>
+        <h1 class="section-title">Selected projects</h1>
+        <p class="section-sub">A collection of desktop applications and Flutter apps I've built.</p>
+      </header>
+
+      <div class="filter-bar" data-reveal role="tablist" aria-label="Project filter">
+        <button class="chip active" data-filter-btn data-target="all" role="tab" aria-selected="true">All</button>
+        <button class="chip" data-filter-btn data-target="desktop" role="tab" aria-selected="false">Desktop Applications</button>
+        <button class="chip" data-filter-btn data-target="flutter" role="tab" aria-selected="false">Flutter Applications</button>
+      </div>
+
+      <ul class="projects" role="list" data-reveal>
+        <li class="project-card" data-filter-item data-category="desktop">
+          <a href="https://github.com/CODEWITHSAJJAD/TTMS" target="_blank" rel="noopener" class="project-link">
+            <div class="project-media">
+              <img src="./assets/images/trucking_management.jpg" alt="Trucking &amp; Transport Management System screenshot" loading="lazy">
+              <div class="project-overlay"><span>View project</span></div>
+            </div>
+            <div class="project-meta">
+              <span class="project-cat">Desktop Application</span>
+              <h3>TTMS — Trucking &amp; Transport Management</h3>
+            </div>
+          </a>
+        </li>
+
+        <li class="project-card" data-filter-item data-category="desktop">
+          <a href="https://github.com/CODEWITHSAJJAD/POS" target="_blank" rel="noopener" class="project-link">
+            <div class="project-media">
+              <img src="./assets/images/POS.jpg" alt="Point of Sale system screenshot" loading="lazy">
+              <div class="project-overlay"><span>View project</span></div>
+            </div>
+            <div class="project-meta">
+              <span class="project-cat">Desktop Application</span>
+              <h3>POS — Point of Sale</h3>
+            </div>
+          </a>
+        </li>
+
+        <li class="project-card" data-filter-item data-category="desktop">
+          <a href="https://github.com/CODEWITHSAJJAD/DOC_CHATBOT" target="_blank" rel="noopener" class="project-link">
+            <div class="project-media">
+              <img src="./assets/images/DOCS_QNA_PROJ.jpeg" alt="Document analysis and chatbot application" loading="lazy">
+              <div class="project-overlay"><span>View project</span></div>
+            </div>
+            <div class="project-meta">
+              <span class="project-cat">Desktop Application · NLP</span>
+              <h3>Document Analysis &amp; Chatbot</h3>
+            </div>
+          </a>
+        </li>
+
+        <li class="project-card" data-filter-item data-category="desktop">
+          <a href="https://github.com/CODEWITHSAJJAD/ASSISTANT" target="_blank" rel="noopener" class="project-link">
+            <div class="project-media">
+              <img src="./assets/images/ASSISTANT.png" alt="AI Assistant application screenshot" loading="lazy">
+              <div class="project-overlay"><span>View project</span></div>
+            </div>
+            <div class="project-meta">
+              <span class="project-cat">Desktop Application · AI</span>
+              <h3>AI Assistant</h3>
+            </div>
+          </a>
+        </li>
+
+        <li class="project-card" data-filter-item data-category="desktop">
+          <a href="https://github.com/CODEWITHSAJJAD/PDC/tree/main/MY%20TAKS/Assignment_client" target="_blank" rel="noopener" class="project-link">
+            <div class="project-media">
+              <img src="./assets/images/parking_system.jpg" alt="Parking management system" loading="lazy">
+              <div class="project-overlay"><span>View project</span></div>
+            </div>
+            <div class="project-meta">
+              <span class="project-cat">Desktop Application</span>
+              <h3>Parking System</h3>
+            </div>
+          </a>
+        </li>
+
+        <li class="project-card" data-filter-item data-category="desktop">
+          <a href="https://github.com/CODEWITHSAJJAD/vooting_system-in-DSA-v2" target="_blank" rel="noopener" class="project-link">
+            <div class="project-media">
+              <img src="./assets/images/vooting_management.jpg" alt="Voting management system" loading="lazy">
+              <div class="project-overlay"><span>View project</span></div>
+            </div>
+            <div class="project-meta">
+              <span class="project-cat">Desktop Application · DSA</span>
+              <h3>Voting System</h3>
+            </div>
+          </a>
+        </li>
+
+        <li class="project-card" data-filter-item data-category="flutter">
+          <a href="https://github.com/CODEWITHSAJJAD/Audio_Classifier_with_flutter" target="_blank" rel="noopener" class="project-link">
+            <div class="project-media">
+              <img src="./assets/images/Audio-Classification.jpeg" alt="Audio classification mobile app" loading="lazy">
+              <div class="project-overlay"><span>View project</span></div>
+            </div>
+            <div class="project-meta">
+              <span class="project-cat">Flutter · ML</span>
+              <h3>Audio Classification</h3>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>&copy; 2024 Sajjad Shahid. All rights reserved.</p>      
+    </div>
+  </footer>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
